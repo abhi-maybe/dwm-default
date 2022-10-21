@@ -63,6 +63,7 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run", "-p", "search", "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *netcmd[] = { "networkmanager_dmenu", NULL };
+//static const char *powercmd[]= { "sh", "~/dwm-default/dmenu/scripts/powermenu.sh", NULL };
 
 static const char *mutecmd[] 				= { "pactl", "set-sink-mute", "0", "toggle", NULL };
 static const char *volupcmd[] 				= { "pactl", "set-sink-volume", "0", "+10%", NULL };
@@ -72,6 +73,7 @@ static const char *brdowncmd[] 				= { "brightnessctl", "set", "10%-", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
+	{ MODKEY,			XK_x,	   spawn,	   SHCMD("sh ~/dwm-default/dmenu/scripts/powermenu.sh") },
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,			XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
