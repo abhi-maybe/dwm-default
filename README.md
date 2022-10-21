@@ -4,8 +4,8 @@ My daily driver DWM setup
 # Screen
 ![](https://github.com/FIRSTB0SS/dwm-default/blob/main/screen.png)
 
-# code
+# apps
 ![](https://github.com/FIRSTB0SS/dwm-default/blob/main/apps.png)
 
-# apps
+# code
 ![](https://github.com/FIRSTB0SS/dwm-default/blob/main/code.png)
