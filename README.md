@@ -1,4 +1,4 @@
-# dwm-default
+## Dotfiles
 My daily driver DWM setup
 
 # Screen
