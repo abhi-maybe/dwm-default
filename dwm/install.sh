@@ -1,13 +1,13 @@
 cd dwm
 make
-make install
+sudo make install
 cd ..
 cd dmenu
 make
-make install
+sudo make install
 cd ..
 cd slstatus
 make
-make install
+sudo make install
 
 cd .xinitrc ~/
