@@ -68,7 +68,7 @@ static const struct arg args[] = {
 //	{ netspeed_tx,	" [U %s | ",	"wlo1"},
 //	{ netspeed_rx,	"D %s]",	"wlo1"},
 //	{ wifi_perc,	" [%s%%",	"wlo1"},
-	{ ipv4,		" [%s ",	"wlo1"},
+	{ ipv4,		" [%s",	"wlo1"},
 	{ wifi_essid,	" %s]",	"wlo1"},
 	{ ram_used,    	" [RAM %s]", NULL },
 //	{ run_command,  " [BRN %s%%]",	"light"},
