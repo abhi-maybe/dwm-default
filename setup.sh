@@ -1,5 +1,5 @@
 # Update and install required packages
-sudo pacman -Syyu feh noto-fonts-cjk noto-fonts-emoji noto-fonts picom xfce4-power-manager alacritty xorg xorg-xinit xterm sl light pamixer brightnessctl git cmake --noconfirm
+sudo pacman -Syyu screengrab feh noto-fonts-cjk noto-fonts-emoji noto-fonts picom xfce4-power-manager alacritty xorg xorg-xinit xterm sl light pamixer brightnessctl git cmake --noconfirm
 
 # Clone the dots
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
