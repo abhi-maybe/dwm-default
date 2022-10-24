@@ -1,6 +1,6 @@
 #!/bin/sh
 
 dunst &
-#picom &
+picom &
 xfce4-power-manager &
 sh ~/.fehbg
