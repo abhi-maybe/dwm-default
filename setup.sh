@@ -7,7 +7,9 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 # Install required AUR packages
 yay -S networkmanager-dmenu-git --noconfirm
 
+# Cpoy required files
 cp .xinitrc ~/
+sudo cp 50-libinput.conf ~/etc/X11/xorg.conf.d/
 
 # Script to install dwm, dmenu and slstatus
 sh /dwm/install.sh
@@ -17,6 +19,7 @@ feh --bg-fill wallpaper.jpg
 
 # Copy the alacritty configs
 cp -R .config/alacritty/ ~/.config/
+cp -R .config/dunst/ ~/.config/
 
 # Let the train Cross :)
 sl
