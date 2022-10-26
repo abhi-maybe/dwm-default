@@ -5,7 +5,7 @@ sudo pacman -Syyu screengrab feh noto-fonts-cjk noto-fonts-emoji noto-fonts pico
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # Install required AUR packages
-yay -S networkmanager-dmenu-git --noconfirm
+yay -S networkmanager-dmenu-git material-black-colors-theme --noconfirm
 
 # Cpoy required files
 cp .xinitrc ~/
