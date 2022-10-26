@@ -1,13 +1,16 @@
-cd dwm
-make
-sudo make install
-cd ..
-cd dmenu
-make
-sudo make install
-cd ..
-cd slstatus
+# dwm
+cd ~/dwm-defaul/dwm
 make
 sudo make install
 
-cd .xinitrc ~/
+# dmenu
+cd ~/dwm-default/dmenu
+make
+sudo make install
+
+# slstatus
+cd ~/dwm-default/slstatus
+make
+sudo make install
+
+cp .xinitrc ~/

@@ -12,7 +12,8 @@ cp .xinitrc ~/
 sudo cp 50-libinput.conf ~/etc/X11/xorg.conf.d/
 
 # Script to install dwm, dmenu and slstatus
-sh /dwm/install.sh
+cd ~/dwm-default
+sh ~/dwm-default/dwm/install.sh
 
 # Set Wallpaper
 feh --bg-fill wallpaper.jpg
