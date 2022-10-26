@@ -1,5 +1,5 @@
 # dwm
-cd ~/dwm-defaul/dwm
+cd ~/dwm-default/dwm
 make
 sudo make install
 
