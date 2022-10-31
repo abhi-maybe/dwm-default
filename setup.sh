@@ -8,19 +8,18 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 yay -S networkmanager-dmenu-git material-black-colors-theme --noconfirm
 
 # Cpoy required files
-cp .xinitrc ~/
-sudo cp 50-libinput.conf ~/etc/X11/xorg.conf.d/
+cp ~/dwm-default/.xinitrc ~/
+sudo cp ~/dwm-default/50-libinput.conf ~/etc/X11/xorg.conf.d/
 
 # Script to install dwm, dmenu and slstatus
-cd ~/dwm-default
 sh ~/dwm-default/dwm/install.sh
 
 # Set Wallpaper
-feh --bg-fill wallpaper.jpg
+feh --bg-fill ~/dwm-default/wallpaper.jpg
 
 # Copy the alacritty configs
-cp -R .config/alacritty/ ~/.config/
-cp -R .config/dunst/ ~/.config/
+cp -R ~/dwm-default/.config/alacritty/ ~/.config/
+cp -R ~/dwm-default/.config/dunst/ ~/.config/
 
 # Let the train Cross :)
 sl
