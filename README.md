@@ -1,5 +1,8 @@
 # Dotfiles
-My daily driver DWM setup
+My daily driver DWM setup with automated installation process
+
+To install-
+$ sh ./setup.sh
 
 ## Basic Dependencies
 networkmanager_dmenu,
