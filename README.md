@@ -11,7 +11,7 @@ light,
 pamixer,
 brightnessctl,
 monospace font.
-# 
+
 ## Screen
 ![](https://github.com/FIRSTB0SS/dwm-default/blob/main/screen.png)
 
