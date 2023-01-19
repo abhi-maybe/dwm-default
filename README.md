@@ -1,7 +1,7 @@
 # Dotfiles
 My daily driver DWM setup with automated installation process
 
-To install-
+> To install-
 
 ``` sh ./setup.sh ```
 
