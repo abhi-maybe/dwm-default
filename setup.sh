@@ -9,7 +9,7 @@ yay -S networkmanager-dmenu-git material-black-colors-theme --noconfirm
 
 # Cpoy required files
 cp ~/dwm-default/.xinitrc ~/
-sudo cp ~/dwm-default/50-libinput.conf ~/etc/X11/xorg.conf.d/
+sudo cp ~/dwm-default/50-libinput.conf /etc/X11/xorg.conf.d/
 
 # Script to install dwm, dmenu and slstatus
 sh ~/dwm-default/dwm/install.sh
