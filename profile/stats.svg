@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Abhijit's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 117, Total PRs: 10, Total Issues: 3, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 4, Total Commits  (last year) : 85, Total PRs: 10, Total Issues: 3, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 216.55190499627327;
+        stroke-dashoffset: 217.89795444921054;
       }
     }
   
@@ -162,7 +162,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >3</text>
+      >4</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -177,7 +177,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >117</text>
+      >85</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >2</text>
+      >1</text>
     </g>
   </g>
     </svg>
