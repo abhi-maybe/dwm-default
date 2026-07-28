@@ -8,7 +8,7 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Abhijit's GitHub Stats, Rank: C+</title>
+        <title id="titleId">Abhijit&#39;s GitHub Stats, Rank: C+</title>
         <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 245, Total PRs: 10, Total Issues: 3, Contributed to (last year): 0</desc>
         <style>
           .header {
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 210.94987509459813;
+        stroke-dashoffset: 210.3987184887052;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Abhijit's GitHub Stats</text>
+      >Abhijit&#39;s GitHub Stats</text>
     </g>
       </g>
     
